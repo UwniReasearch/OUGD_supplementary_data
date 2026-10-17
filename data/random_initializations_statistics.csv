@@ -1,0 +1,2 @@
+runs,num_bias_params,successes,minimum_updates,maximum_updates,mean_updates,median_updates,maximum_gradient_norm
+100,1,100,42,68,57.25,57.5,9.975646836252608e-9

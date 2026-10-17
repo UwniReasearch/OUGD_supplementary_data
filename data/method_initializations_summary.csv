@@ -1,0 +1,4 @@
+bits,ports,method,runs,successes,seeds,solve_median_seconds,solve_min_seconds,solve_max_seconds,median_cost_evaluations,median_gradient_evaluations,maximum_final_gradient,maximum_unitarity_residual
+3,8,rgd_joint,10,10,10,0.001052813,0.00079625,0.012488333,118.0,59.0,7.852184648916057e-9,8.528493249867895e-15
+3,8,euclidean_gradient_descent,10,10,10,0.017179917,0.007965791,0.077640041,824.0,290.5,9.970280529451853e-9,8.764105774849151e-15
+3,8,alternating_minimization,10,10,10,0.0009378335,0.00058025,0.003105208,94.0,45.0,8.51580610557647e-9,7.801756448269638e-15

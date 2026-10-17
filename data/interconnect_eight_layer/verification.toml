@@ -1,0 +1,33 @@
+checks_run = 1365
+component_readback_rows = 736
+error_count = 0
+errors = []
+interpretation = ["Non-ideal conditions use conservative limits of strict component bounds; these are not measured or guaranteed device parameters.", "Each 2 mm output waveguide is a scenario assumption; no drawing-derived internal routing length is used.", "Throughput includes the bias input in the stated 1 mW total input power.", "ER uses the largest non-target output; CR uses the mean of all seven non-target outputs.", "Target-largest means strictly greater than every non-target output; counts are outcomes and are not required to be eight.", "Noise and detector flags are checked from model_parameters.csv; individual detector properties are outside the component readback table.", "All fixed MZI phases are checked against both snapshots and every condition readback."]
+measurement_rows = 32
+mzi_column_counts = [4, 3, 4, 3, 4, 3, 4, 3]
+mzi_columns = 8
+mzi_count = 28
+scope = "Eight-layer 28-MZI original-circuit measurements; four deterministic optical conditions and eight input words per condition."
+verification_passed = true
+
+[comparison_tolerances]
+dB_absolute = 1.0e-8
+numeric_relative = 1.0e-10
+parameter_absolute = 1.0e-12
+phase_absolute_rad = 1.0e-12
+power_absolute_W = 1.0e-15
+
+[maximum_residuals]
+CR_dB_max_error = 0.0
+ER_dB_max_error = 0.0
+component_TE_cross_power_fraction_max_error = 0.0
+component_insertion_loss_dB_max_error = 0.0
+component_length_m_max_error = 0.0
+component_loss_dB_per_m_max_error = 0.0
+component_phi_rad_max_error = 0.0
+component_theta_rad_max_error = 0.0
+input_power_max_error_W = 0.0
+insertion_loss_dB_max_error = 0.0
+phase_snapshot_max_error_rad = 0.0
+throughput_max_error = 0.0
+total_output_max_error_W = 0.0
